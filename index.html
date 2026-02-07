@@ -15,7 +15,12 @@
     </p>
 
     <form action="submit">
-      <select name="stream" id="stream" title="stream">
+      <select
+        name="stream"
+        id="stream"
+        title="stream"
+        onchange="suggestCareer()"
+      >
         <option value="science" id="science">Science</option>
         <option value="commerce" id="commerce">Commerce</option>
         <option value="history" id="history">History</option>
