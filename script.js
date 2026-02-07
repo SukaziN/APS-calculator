@@ -1,8 +1,3 @@
-//let subject = prompt(
-// "Enter your score for a subject (e.g. if you got level 4, enter 4."
-//);
-//subject = Number(subject);
-//let maximum = 6 + 1;
 let subjects = [scienceSubjects, commerceSubjects, historySubjects];
 let scienceSubjects = [
   "Physical Sciences",
@@ -32,6 +27,12 @@ let historySubjects = [
   "Home language",
   "Life Orientation",
 ];
+let english = document.getElementById("english").valueAsNumber;
+let homeLang = document.getElementById("home-language").valueAsNumber;
+let math = document.getElementById("math").valueAsNumber;
+let core1 = document.getElementById("core-1").valueAsNumber;
+let core2 = document.getElementById("core-2").valueAsNumber;
+let core3 = document.getElementById("core-3").valueAsNumber;
 let message = "Your career options include but are not limited to: ";
 function calculateAPS() {
   let APS; //the sum of all categorized subjects - Life orientation;
@@ -45,7 +46,7 @@ function calculateAPS() {
     console.log("Congratulations on your hard work!");
   } else if (APS < 20) {
     console.log(
-      "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects."
+      "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects.",
     );
   }
 }
