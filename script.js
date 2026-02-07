@@ -35,7 +35,8 @@ let core2 = document.getElementById("core-2").valueAsNumber;
 let core3 = document.getElementById("core-3").valueAsNumber;
 let message = "Your career options include but are not limited to: ";
 function calculateAPS() {
-  let APS; //the sum of all categorized subjects - Life orientation;
+  let APS = english + homeLang + math + core1 + core2 + core3;
+  console.log(APS);
   switch (subjects) {
     case historySubjects:
       console.log("Your career options include but are not limited to: ");
