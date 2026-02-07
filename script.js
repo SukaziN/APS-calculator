@@ -1,4 +1,4 @@
-let subjects = [scienceSubjects, commerceSubjects, historySubjects];
+//let subjects = [scienceSubjects, commerceSubjects, historySubjects];
 let scienceSubjects = [
   "Physical Sciences",
   "Life Sciences",
@@ -27,17 +27,20 @@ let historySubjects = [
   "Home language",
   "Life Orientation",
 ];
-let english = document.getElementById("english").valueAsNumber;
-let homeLang = document.getElementById("home-language").valueAsNumber;
-let math = document.getElementById("math").valueAsNumber;
-let core1 = document.getElementById("core-1").valueAsNumber;
-let core2 = document.getElementById("core-2").valueAsNumber;
-let core3 = document.getElementById("core-3").valueAsNumber;
+
 let message = "Your career options include but are not limited to: ";
 function calculateAPS() {
+  let english = document.getElementById("english").valueAsNumber;
+  let homeLang = document.getElementById("home-language").valueAsNumber;
+  let math = document.getElementById("math").valueAsNumber;
+  let core1 = document.getElementById("core-1").valueAsNumber;
+  let core2 = document.getElementById("core-2").valueAsNumber;
+  let core3 = document.getElementById("core-3").valueAsNumber;
   let APS = english + homeLang + math + core1 + core2 + core3;
   console.log(APS);
-  switch (subjects) {
+  switch (
+    subjects //crashes here. FIX IT!
+  ) {
     case historySubjects:
       console.log("Your career options include but are not limited to: ");
     case commerceSubjects:
