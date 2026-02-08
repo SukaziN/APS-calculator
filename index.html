@@ -14,18 +14,17 @@
       suggestions based on the score. The APS is a sum of all your subject
       levels excluding life orientation.
     </p>
-
+    <p>
+      Please choose the subject stream you were doing from the list below for
+      more details about your career options.
+    </p>
+    <ul>
+      <li id="science">Sciences</li>
+      <li id="technical">Sciences with technical subjects</li>
+      <li id="commerce">Commerce</li>
+      <li id="history">History</li>
+    </ul>
     <form action="submit">
-      <select
-        name="stream"
-        id="stream"
-        title="stream"
-        onchange="suggestCareer()"
-      >
-        <option value="science" id="science">Science</option>
-        <option value="commerce" id="commerce">Commerce</option>
-        <option value="history" id="history">History</option>
-      </select>
       <label for="english">English</label>
       <input type="number" id="english" placeholder="5" minlength="1" />
       <label for="home-language">Home Language</label>
