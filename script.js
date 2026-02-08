@@ -25,19 +25,16 @@ function calculateAPS() {
     encouragement.innerHTML = "Congratulations and best of luck!";
   }
 }
-function suggestCareer() {
-  let science = document.getElementById("science");
-  let technical = document.getElementById("technical");
-  let commerce = document.getElementById("commerce");
-  let history = document.getElementById("history");
-  if (science.addEventListener("click")) {
-    //was trying to distinguish clicked elements without having to code different functions. Crashed!
-    console.log("Good choice! Here are some careers you can pursue.");
-  } else if (technical.addEventListener("click")) {
-    console.log("Great choice! people with your skill-set do well in...");
-  } else if (commerce.addEventListener("click")) {
-    console.log("You'd be a great fit at business school!");
-  } else if (history.addEventListener("click")) {
-    console.log("Most people with your subjects excel in ...");
-  }
+
+function suggestScienceCareer() {
+  console.log("Good choice! Here are some careers you can pursue.");
+}
+function suggestTechnicalCareer() {
+  console.log("Great choice! people with your skill-set do well in...");
+}
+function suggestCommerceCareer() {
+  console.log("You'd be a great fit at business school!");
+}
+function suggestHistoryCareer() {
+  console.log("Most people with your subjects excel in ...");
 }
