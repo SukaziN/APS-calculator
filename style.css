@@ -14,10 +14,12 @@ h1 {
 }
 li {
   list-style: none;
+}
+li.subject {
   font-weight: 600;
 }
 
-li:hover {
+li.subject:hover {
   color: rgb(124, 1, 124);
   cursor: pointer;
   background-color: whitesmoke;
