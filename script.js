@@ -26,15 +26,32 @@ function calculateAPS() {
   }
 }
 
+let scienceCareer = document.getElementById("science-careers");
 function suggestScienceCareer() {
   console.log("Good choice! Here are some careers you can pursue.");
+  scienceCareer.innerText =
+    "Good choice! Here are some careers you can pursue.";
+  let career1 = document.getElementById("choice-1");
+  let career2 = document.getElementById("choice-2");
+  let career3 = document.getElementById("choice-3");
+  let career4 = document.getElementById("choice-4");
+  let career5 = document.getElementById("choice-5");
+  /* career1.innerText = "Civil Engineering";
+  career2.innerText = "Electrical Engineering";
+  career3.innerText = "Mining Engineering";
+  career4.innerText = "Chemical Engineering";
+  career5.innerText = "Medicine"; */
 }
 function suggestTechnicalCareer() {
   console.log("Great choice! people with your skill-set do well in...");
+  scienceCareer.innerText =
+    "Great choice! people with your skill-set do well in...";
 }
 function suggestCommerceCareer() {
   console.log("You'd be a great fit at business school!");
+  scienceCareer.innerText = "You'd be a great fit at business school!";
 }
 function suggestHistoryCareer() {
   console.log("Most people with your subjects excel in ...");
+  scienceCareer.innerText = "Most people with your subjects excel in ...";
 }

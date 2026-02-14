@@ -14,19 +14,7 @@
       suggestions based on the score. The APS is a sum of all your subject
       levels excluding life orientation.
     </p>
-    <hr />
-    <p>
-      <b>Click</b> the subject stream you were doing from the list below for
-      more details about your career options.
-    </p>
-    <ul>
-      <li id="science" onclick="suggestScienceCareer()">Sciences</li>
-      <li id="technical" onclick="suggestTechnicalCareer()">
-        Sciences with technical subjects
-      </li>
-      <li id="commerce" onclick="suggestCommerceCareer()">Commerce</li>
-      <li id="history" onclick="suggestHistoryCareer()">History</li>
-    </ul>
+
     <hr />
     <p>
       Type in the level for each of the subjects below as it appears on your
@@ -57,6 +45,28 @@
     <button type="submit" id="submit" onclick="calculateAPS()">Submit</button>
     <p id="aps"></p>
     <p id="encouragement"></p>
+    <hr />
+    <p>
+      <b>Click</b> the subject stream you were doing from the list below for
+      more details about your career options.
+    </p>
+    <ul>
+      <li id="science" onclick="suggestScienceCareer()">Sciences</li>
+      <li id="technical" onclick="suggestTechnicalCareer()">
+        Sciences with technical subjects
+      </li>
+      <li id="commerce" onclick="suggestCommerceCareer()">Commerce</li>
+      <li id="history" onclick="suggestHistoryCareer()">History</li>
+    </ul>
+
+    <p id="science-careers"></p>
+    <ul>
+      <li id="choice-1"></li>
+      <li id="choice-2"></li>
+      <li id="choice-3"></li>
+      <li id="choice-4"></li>
+      <li id="choice-5"></li>
+    </ul>
   </body>
   <script src="script.js"></script>
 </html>
