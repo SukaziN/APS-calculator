@@ -8,21 +8,21 @@ function calculateAPS() {
   let APS = english + homeLang + math + core1 + core2 + core3;
   console.log(APS);
   let results = document.getElementById("aps");
-  results.innerHTML = "APS: " + APS;
+  results.innerText = "APS: " + APS;
   let encouragement = document.getElementById("encouragement");
 
   if (APS >= 30) {
     console.log("Congratulations on your hard work!");
-    encouragement.innerHTML = "Congratulations on your hard work!";
+    encouragement.innerText = "Congratulations on your hard work!";
   } else if (APS < 20) {
     console.log(
       "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects.",
     );
-    encouragement.innerHTML =
+    encouragement.innerText =
       "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects.";
   } else {
     console.log("Congratulations and best of luck!");
-    encouragement.innerHTML = "Congratulations and best of luck!";
+    encouragement.innerText = "Congratulations and best of luck!";
   }
 }
 
