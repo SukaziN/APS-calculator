@@ -36,22 +36,52 @@ function suggestScienceCareer() {
   let career3 = document.getElementById("choice-3");
   let career4 = document.getElementById("choice-4");
   let career5 = document.getElementById("choice-5");
-  /* career1.innerText = "Civil Engineering";
+  career1.innerText = "Civil Engineering";
   career2.innerText = "Electrical Engineering";
   career3.innerText = "Mining Engineering";
   career4.innerText = "Chemical Engineering";
-  career5.innerText = "Medicine"; */
+  career5.innerText = "Medicine";
 }
 function suggestTechnicalCareer() {
   console.log("Great choice! people with your skill-set do well in...");
   scienceCareer.innerText =
     "Great choice! people with your skill-set do well in...";
+  let career1 = document.getElementById("choice-1");
+  let career2 = document.getElementById("choice-2");
+  let career3 = document.getElementById("choice-3");
+  let career4 = document.getElementById("choice-4");
+  let career5 = document.getElementById("choice-5");
+  career1.innerText = "Civil Engineering";
+  career2.innerText = "Electrical Engineering";
+  career3.innerText = "Mining Engineering";
+  career4.innerText = "Chemical Engineering";
+  career5.innerText = "Medicine";
 }
 function suggestCommerceCareer() {
   console.log("You'd be a great fit at business school!");
   scienceCareer.innerText = "You'd be a great fit at business school!";
+  let career1 = document.getElementById("choice-1");
+  let career2 = document.getElementById("choice-2");
+  let career3 = document.getElementById("choice-3");
+  let career4 = document.getElementById("choice-4");
+  let career5 = document.getElementById("choice-5");
+  career1.innerText = "Civil Engineering";
+  career2.innerText = "Electrical Engineering";
+  career3.innerText = "Mining Engineering";
+  career4.innerText = "Chemical Engineering";
+  career5.innerText = "Medicine";
 }
 function suggestHistoryCareer() {
   console.log("Most people with your subjects excel in ...");
   scienceCareer.innerText = "Most people with your subjects excel in ...";
+  let career1 = document.getElementById("choice-1");
+  let career2 = document.getElementById("choice-2");
+  let career3 = document.getElementById("choice-3");
+  let career4 = document.getElementById("choice-4");
+  let career5 = document.getElementById("choice-5");
+  career1.innerText = "Civil Engineering";
+  career2.innerText = "Electrical Engineering";
+  career3.innerText = "Mining Engineering";
+  career4.innerText = "Chemical Engineering";
+  career5.innerText = "Medicine";
 }
