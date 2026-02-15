@@ -56,11 +56,16 @@ hr {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-#suggestions {
+#suggestions,
+#feedback {
   background-color: rgb(253, 243, 228);
   padding: 1em;
   border: 1px solid rgb(124, 1, 124);
   border-radius: 1%;
+  box-shadow: 2px 2px 2px gray;
+}
+#feedback {
+  margin-top: 1em;
 }
 footer {
   margin-top: 0.5em;

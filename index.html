@@ -9,10 +9,10 @@
   <body>
     <h1>APS calculator</h1>
     <p>
-      This website was designed to help bridge the gap between high-school and
+      The APS is a sum of all your subject levels excluding life orientation.
+      This website was designed to help bridge the gap between High School and
       tertiary education by calculating the student's APS and giving career
-      suggestions based on the subject combination. The APS is a sum of all your
-      subject levels excluding life orientation.
+      suggestions based on their subject combination.
     </p>
     <hr />
     <h2>Score Form</h2>
@@ -49,8 +49,10 @@
       <input type="number" id="core-3" minlength="1" maxlength="1" />
     </form>
     <button type="submit" id="submit" onclick="calculateAPS()">Submit</button>
-    <p id="aps"></p>
-    <p id="encouragement"></p>
+    <div id="feedback">
+      <p id="aps"><i>Your APS will appear here...</i></p>
+      <p id="encouragement"></p>
+    </div>
     <hr />
     <h2>Qualifications</h2>
     <p>
