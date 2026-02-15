@@ -14,6 +14,25 @@ h3 {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
+header {
+  background-color: rgb(71, 3, 71);
+  color: white;
+  padding: 0.5em;
+}
+.nav {
+  margin-bottom: 0.5em;
+}
+.navigation {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 0.2em;
+  border-radius: 15%;
+  background-color: rgb(124, 1, 124);
+}
+.navigation:hover {
+  background-color: rgb(71, 3, 71);
+}
 p {
   margin-bottom: 1em;
 }
