@@ -19,7 +19,7 @@ function calculateAPS() {
     encouragement.innerText = "Congratulations and best of luck!";
   } else {
     encouragement.innerText =
-      "Please enter the single digits as they appear on your statement of results and ensure you fill in all required fields.";
+      "INVALID APS! Please enter the single digits as they appear on your statement of results and ensure you fill in all required fields.";
   }
 }
 let career1 = document.getElementById("choice-1");
