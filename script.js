@@ -10,13 +10,16 @@ function calculateAPS() {
   results.innerText = "APS: " + APS;
   let encouragement = document.getElementById("encouragement");
 
-  if (APS >= 30) {
+  if (APS >= 30 && APS <= 42) {
     encouragement.innerText = "Congratulations on your hard work!";
   } else if (APS < 20) {
     encouragement.innerText =
       "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects.";
-  } else {
+  } else if (APS < 20 && APS > 6) {
     encouragement.innerText = "Congratulations and best of luck!";
+  } else {
+    encouragement.innerText =
+      "Please enter the single digits as they appear on your statement of results and ensure you fill in all required fields.";
   }
 }
 let career1 = document.getElementById("choice-1");

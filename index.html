@@ -39,9 +39,11 @@
       Type in the level for each of the subjects below as it appears on your
       statement of results in the spaces provided, then click the
       <em>submit</em> button.
+      <br />
+      <span class="asterisk">*</span><em>Indicates required fields.</em>
     </p>
     <form action="submit">
-      <label for="english">English</label>
+      <label for="english">English<span class="asterisk">*</span></label>
       <input
         type="number"
         id="english"
@@ -50,21 +52,33 @@
         maxlength="1"
       />
       <br />
-      <label for="home-language">Home Language</label>
+      <label for="home-language"
+        >Home Language<span class="asterisk">*</span></label
+      >
       <input type="number" id="home-language" minlength="1" maxlength="1" />
       <br />
-      <label for="math">Mathematics/ Mathematical Literacy</label>
+      <label for="math"
+        >Mathematics/ Mathematical Literacy<span class="asterisk"
+          >*</span
+        ></label
+      >
       <input type="number" id="math" minlength="1" maxlength="1" />
       <br />
-      <label for="core-1">Physical Sciences/ History/ Economics</label>
+      <label for="core-1"
+        >Physical Sciences/ History/ Economics
+        <span class="asterisk">*</span></label
+      >
       <input type="number" id="core-1" minlength="1" maxlength="1" />
       <br />
       <label for="core-2"
-        >Geography/ Accounting/ Agriculture/ Consumer Studies</label
+        >Geography/ Accounting/ Agriculture/ Consumer Studies
+        <span class="asterisk">*</span></label
       >
       <input type="number" id="core-2" minlength="1" maxlength="1" />
       <br />
-      <label for="core-3">Life Sciences/ Business Studies</label>
+      <label for="core-3"
+        >Life Sciences/ Business Studies <span class="asterisk">*</span></label
+      >
       <input type="number" id="core-3" minlength="1" maxlength="1" />
     </form>
     <button type="submit" id="submit" onclick="calculateAPS()">Submit</button>
@@ -104,6 +118,7 @@
         <li id="choice-5"></li>
       </ul>
     </div>
+    <hr />
     <footer>
       <h2 id="more-info">Institution-specific Information</h2>
       <p>
