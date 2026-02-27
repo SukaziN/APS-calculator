@@ -12,12 +12,12 @@ function calculateAPS() {
 
   if (APS >= 30 && APS <= 42) {
     encouragement.innerText = "Congratulations on your hard work!";
-  } else if (APS < 20) {
+  } else if (APS < 15) {
     encouragement.innerText =
       "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects.";
   } else if (APS < 20 && APS > 6) {
     encouragement.innerText = "Congratulations and best of luck!";
-  } else {
+  } else if (APS < 6) {
     encouragement.innerText =
       "INVALID APS! Please enter the single digits as they appear on your statement of results and ensure you fill in all required fields.";
   }
