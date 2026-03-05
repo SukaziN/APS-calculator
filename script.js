@@ -8,6 +8,7 @@ function calculateAPS() {
   let APS = english + homeLang + math + core1 + core2 + core3;
   let results = document.getElementById("aps");
   results.innerText = "APS: " + APS;
+
   let encouragement = document.getElementById("encouragement");
 
   if (APS >= 30 && APS <= 42) {
@@ -17,7 +18,7 @@ function calculateAPS() {
       "Congratulations on completing your matriculation! Consider rewriting for better tertiary education prospects.";
   } else if (APS < 20 && APS > 6) {
     encouragement.innerText = "Congratulations and best of luck!";
-  } else if (APS < 6) {
+  } else if (APS > 42 || APS < 6) {
     encouragement.innerText =
       "INVALID APS! Please enter the single digits as they appear on your statement of results and ensure you fill in all required fields.";
   }
